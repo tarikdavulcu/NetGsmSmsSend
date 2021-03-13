@@ -1,0 +1,6 @@
+/Users/tarikdavulcu/Projects/sms/sms/bin/Debug/sms.exe
+/Users/tarikdavulcu/Projects/sms/sms/bin/Debug/sms.pdb
+/Users/tarikdavulcu/Projects/sms/sms/obj/Debug/sms.csproj.CoreCompileInputs.cache
+/Users/tarikdavulcu/Projects/sms/sms/obj/Debug/sms.exe
+/Users/tarikdavulcu/Projects/sms/sms/obj/Debug/sms.pdb
+/Users/tarikdavulcu/Projects/sms/sms/obj/Debug/sms.csprojAssemblyReference.cache

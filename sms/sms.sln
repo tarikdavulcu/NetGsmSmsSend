@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sms", "sms\sms.csproj", "{57A44EAC-8DCF-4927-8F91-5F1B6A72000E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57A44EAC-8DCF-4927-8F91-5F1B6A72000E}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{57A44EAC-8DCF-4927-8F91-5F1B6A72000E}.Debug|anycpu.Build.0 = Debug|anycpu
+		{57A44EAC-8DCF-4927-8F91-5F1B6A72000E}.Release|anycpu.ActiveCfg = Release|anycpu
+		{57A44EAC-8DCF-4927-8F91-5F1B6A72000E}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3405B4C3-3416-442C-92BC-0FFBD2AB9F33}
+	EndGlobalSection
+EndGlobal
