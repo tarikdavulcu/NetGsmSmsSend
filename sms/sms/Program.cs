@@ -13,9 +13,9 @@ namespace sms
             try
             {
 				string html = string.Empty;
-				string mes = "deneme deneme için 2";
-				string url = @"https://api.netgsm.com.tr/sms/send/get/?usercode=8503076794&password=20342034Td&gsmno=5378970797&message="+@mes+"&msgheader=TD BILISIM&dil=TR";
-
+				string mes = "Mesajınız";
+				string url = @"https://api.netgsm.com.tr/sms/send/get/?usercode=TelNonuzuYaziniz&password=ŞifreniziYaziniz&gsmno=GönderilecekTelNo&message="+@mes+"&msgheader=TD BILISIM&dil=TR";
+                //dil="TR" Türkce karakterli mesaj göndermek için.
 
 				HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 				request.AutomaticDecompression = DecompressionMethods.GZip;
@@ -37,7 +37,7 @@ namespace sms
             #region Kalan_Paket_Bilgisi
 
             string htmll = string.Empty;
-            string urll = @"https://api.netgsm.com.tr/balance/list/get/?usercode=8503076794&password=20342034Td&tip=1";
+            string urll = @"https://api.netgsm.com.tr/balance/list/get/?usercode=TelNonuzuYaziniz&password=ŞifreniziYaziniz&tip=1";
 
             HttpWebRequest requestl = (HttpWebRequest)WebRequest.Create(urll);
             requestl.AutomaticDecompression = DecompressionMethods.GZip;
